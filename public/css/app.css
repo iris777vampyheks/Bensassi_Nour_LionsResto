@@ -84,6 +84,156 @@
   background-color: rgb(158, 18, 18);
 }
 
+/* section 2*/
+.sec-2 {
+  height: 100vh;
+  width: 100%;
+}
+
+.d-flex {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.num {
+  margin-top: 30%;
+  position: absolute;
+  background-color: white;
+  height: 130px;
+  width: 480px;
+  margin-left: 13%;
+}
+
+.learnmore {
+  font-family: Amatic SC;
+}
+
+.sec2img {
+  width: 40%;
+  height: 615px;
+  margin-left: 150px;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.abt {
+  color: rgb(195, 195, 195);
+}
+
+.txt {
+  margin-bottom: 310px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  margin-left: 30px;
+}
+
+.txt p {
+  margin: 0;
+  padding: 5px;
+}
+
+.abt2 {
+  height: 330px;
+  width: 490px;
+}
+
+.sec-3 {
+  height: 70vh;
+  width: 100%;
+  background-color: rgb(224, 222, 222);
+}
+
+.video-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.abt2 {
+  margin-top: 3rem;
+  margin-right: 250px;
+  position: relative;
+}
+
+.abt2 img {
+  display: block;
+  margin: 0 auto;
+}
+
+.play-icon {
+  height: 55px;
+  width: 55px;
+  background-color: rgba(255, 0, 0, 0.771);
+  border-radius: 7cm;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  z-index: 2;
+  transition: transform 0.3s ease;
+}
+
+.play-icon:hover i {
+  transform: scale(2.7);
+}
+
+.hidden {
+  display: none;
+}
+
+#exit-icon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 35px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.red-element {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgba(255, 14, 14, 0.64);
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  transition: width 0.2s ease, height 0.2s ease;
+}
+
+.play-icon:hover + .red-element {
+  width: 3cm;
+  height: 3cm;
+}
+
+video {
+  position: absolute;
+  top: 50%;
+  right: 99%;
+  transform: translate(50%, -50%);
+  z-index: 2;
+  width: 700px;
+  height: 700px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* */
 /*!
  * Bootstrap  v5.3.0 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
