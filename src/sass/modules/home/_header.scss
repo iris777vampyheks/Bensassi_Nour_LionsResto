@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Amatic SC";
+    src: url("../../../../node_modules/@fortawesome/fontawesome-free/webfonts/AmaticSC-Bold.ttf");
+}
+
+.cnx {
+    background-color: rgb(197, 23, 23);
+    color: white;
+    border-radius: 35px;
+    border-style: none;
+    height: 30px;
+    width: 96px;
+}
+
+.navba a {
+    color: rgb(136, 136, 136);
+}
+
+.navba a:hover {
+    color: rgb(6, 6, 6);
+    border-bottom: 3px solid rgb(181, 22, 22);
+}
+
+.sec-1 {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .item1 {
+    height: 400px;
+    width: 400px;
+  }
+  
+  .left-side {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 50px;
+    line-height: 1.2;
+  }
+  
+  .delicious,
+  .left-side p,
+  .btn-table {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .delicious {
+    margin-left: 170px;
+    font-family: Amatic SC;
+font-size: 60px;
+  }
+  
+  .left-side p {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-left: 170px;
+  }
+  
+  .btn-table {
+    margin-top: 20px;
+    background-color: rgb(197, 23, 23);
+    color: white;
+    border-radius: 35px;
+    border: none;
+    height: 44px;
+    width: 160px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 170px;
+  }
+  
+  .btn-table:hover {
+    background-color: rgb(158, 18, 18);
+  }
