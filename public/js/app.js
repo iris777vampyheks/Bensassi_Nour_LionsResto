@@ -17,5 +17,19 @@ exitIcon.addEventListener('click', () => {
     exitIcon.classList.add('hidden');
 });
 
-// Custom code to add red color to the exit icon
+// color
 exitIcon.style.color = 'red';
+// tablist
+function showTab(tabName) {
+    let tabs = document.getElementsByClassName("tab-content");
+    for (let i = 0; i < tabs.length; i++) {
+        tabs[i].style.display = "none";
+    }
+    document.getElementById(tabName).style.display = "flex";
+}
+
+// Display only 6images by default
+document.getElementById("starters").style.display = "flex";
+document.getElementById("breakfast").style.display = "none";
+document.getElementById("lunch").style.display = "none";
+document.getElementById("dinner").style.display = "none";

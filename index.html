@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <!-- navbar  -->
     <nav class="navbar navbar-light bg-light d-flex align-items-center justify-content-evenly">
         <h2>LionsResto.</h2>
         <div class=" navba d-flex align-items-center justify-content-evenly">
@@ -21,14 +22,24 @@
             <a class="navbar-brand" href="#">Events</a>
             <a class="navbar-brand" href="#">Chefs</a>
             <a class="navbar-brand" href="#">Gallery</a>
-            <a class="nav-link dropdown-toggle navbar-brand" href="#" id="navbarDropdown" role="button"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-            </a>
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle navbar-brand" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </div>
             <a class="navbar-brand" href="#">Contact</a>
         </div>
         <button class="cnx">Connexion</button>
     </nav>
+
+    <!-- section 1 -->
     <section class="sec-1">
         <div class="left-side">
             <h2 class="delicious">ENJOY YOUR HEALTHY</h2>
@@ -38,17 +49,20 @@
             <button class="btn-table">Book a table</button>
         </div>
         <div class="right-side">
-            <img class="item1" src="./public/img/menu/menu-item-1.png" alt="">
+            <img class="item1 img-fluid" src="./public/img/menu/menu-item-1.png" alt="">
         </div>
     </section>
     <!-- Section 2 -->
+
     <section class="sec-2">
         <h6 class=" abt mt-5 text-center">About us</h6>
-        <h1 class="text-center learnmore">LEARN MORE <span style="color: rgb(165, 31, 31);">ABOUT US</span></h1>
+        <h1 class="text-center learnmore">LEARN MORE<span style="color: rgb(215, 27, 27);">ABOUT US</span></h1>
         <div class="d-flex">
             <img class="sec2img mt-3" src="./public/img/about.jpg" alt="">
-            <div class="num"><h4 class="text-center mt-3">Book a table</h4>
-            <h3 class="text-danger text-center">+105457457457</h3></div>
+            <div class="num">
+                <h4 class="text-center mt-3">Book a table</h4>
+                <h3 class="text-danger text-center">+105457457457</h3>
+            </div>
             <div class="txt">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                 <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
@@ -67,16 +81,269 @@
                     <img class="abt2 mt-3" src="./public/img/about-2.jpg" alt="">
                     <div class="play-icon"><i class="fas fa-play mt-3 ms-4 text-white"></i></div>
                     <div class="red-element"></div>
-                    <video id="video-player" class="hidden" style="height: 700px; width: 700px;" src="./public/video/SnapSave.io-Imagine for 1 Minute-(720p).mp4"></video>
+                    <video id="video-player" class="hidden" style="height: 700px; width: 700px;"
+                        src="./public/video/SnapSave.io-Imagine for 1 Minute-(720p).mp4"></video>
                     <div id="exit-icon" class="hidden"><i class="fas fa-times"></i></div>
                 </div>
-                
+            </div>
+    </section>
+    <!-- Section 3 -->
+
+    <section class="sec-3 mt-5 d-flex justify-content-evenly">
+        <div class="cardred text-white bg-danger mt-5 mb-2" style="max-width: 22rem; height: 20rem;">
+            <div class="card-body">
+                <h2 class="card-title text-center mt-4">Why are you here?</h2>
+                <p class="card-text text-center mt-4">Lorem ipsum dolor it ame adipisicing elit. animii libero officia
+                    esse illum at facere enjht? , ipsum dolor sit amet consectetur adipisicing elit. Inventore doloribus
+                    quae perspiciatis, dolorem rerum quaerat eum quis praesentium corporis.
+                    card's content.</p>
+                <button class=" btn3 mx-auto d-block text-center bg-danger-subtle border border-0"
+                    style="border-radius: 29px; width: 130px; height: 37px;">Learn more</button>
+            </div>
+        </div>
+
+        <div class="card text-center mt-5" style="width: 18rem; height: 20rem;">
+            <div class="card-body">
+                <div class="rounded-circle bg-danger-alpha mx-auto mb-2" style="width: 70px; height: 70px;">
+                    <img class="card-img-top mt-2" src="./public/icons/icons8-list-64.png" alt="Card image cap">
+                </div>
+                <h5>Hello world</h5>
+                <p class="card-text mt-4">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
+        </div>
+
+        <div class="card text-center mt-5" style="width: 18rem; height: 20rem;">
+            <div class="card-body ">
+                <div class="rounded-circle bg-danger-alpha mx-auto mb-2" style="width: 70px; height: 70px;">
+                    <img class="card-img-top mt-2" src="./public/icons/icons8-diamond-64.png" alt="Card image cap">
+                </div>
+                <h5>This is just</h5>
+                <p class="card-text mt-4">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
+        </div>
+
+        <div class="card text-center mt-5 me-5" style="width: 18rem; height: 20rem;">
+            <div class="card-body">
+                <div class="rounded-circle bg-danger-alpha mx-auto mb-2" style="width: 70px; height: 70px;">
+                    <img class="card-img-top mt-2" src="./public/icons/icons8-bookmark-64 (1).png" alt="Card image cap">
+                </div>
+                <h5>template</h5>
+                <p class="card- mt-4">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
         </div>
     </section>
-    <section class="sec-3 mt-5">
-    
+    <!-- Section 4 -->
+    <section class="sec-4">
+        <div class="d-flex justify-content-around align-items-center">
+            <div class="d-flex flex-column align-items-center">
+                <h1 class="me-lg-5">547</h1>
+                <p class="me-lg-5 text-secondary fw-bold ">Clients</p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h1 class="me-lg-5">525</h1>
+                <p class="me-lg-5 text-secondary fw-bold">Projects</p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h1 class="me-lg-5">252</h1>
+                <p class="me-lg-5 text-secondary fw-bold">Hours of support</p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <h1 class="me-lg-5">551</h1>
+                <p class="me-lg-5 text-secondary fw-bold">Workers</p>
+            </div>
+        </div>
     </section>
-<script src="./public/js/app.js"></script>
+
+    <!-- section 5 -->
+    <section class="sec-5 mt-5">
+        <h2 class="menu text-center">CLICK OUR <span style="color:rgb(205, 25, 25) ;"> LIONSRESTO MENU</span></h2>
+        <ul class="tablist">
+            <li onclick="showTab('starters')">STARTERS</li>
+            <li onclick="showTab('breakfast')">BREAKFAST</li>
+            <li onclick="showTab('lunch')">LUNCH</li>
+            <li onclick="showTab('dinner')">DINNER</li>
+        </ul>
+        <!-- STARTER TAB -->
+        <div id="starters" class="tab-content active">
+            <div class="row">
+                <h6 class="text-secondary text-center">MENU</h6>
+                <h2 class="text-danger text-center mb-2">Starter</h2>
+                <div class="col-md-4 mb-2">
+                    <img src="./public/img/menu/menu-item-1.png" alt="Starter Image 6">
+                    <h4>Starter 1</h4>
+                    <p class="text-secondary">Description of Starter 1</p>
+                    <p class="price">$7</p>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <img src="./public/img/menu/menu-item-3.png" alt="Starter Image 4">
+                    <h4>Starter 2</h4>
+                    <p class="text-secondary">Description of Starter 2</p>
+                    <p class="price">$5.25</p>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <img src="./public/img/menu/menu-item-2.png" alt="Starter Image 5">
+                    <h4>Starter 3</h4>
+                    <p class="text-secondary">Description of Starter 3</p>
+                    <p class="price">$12.57</p>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <img src="./public/img/menu/menu-item-4.png" alt="Starter Image 1">
+                    <h4>Starter 4</h4>
+                    <p class="text-secondary">Description of Starter 4</p>
+                    <p class="price">$8.99</p>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <img src="./public/img/menu/menu-item-5.png" alt="Starter Image 3">
+                    <h4>Starter 5</h4>
+                    <p class="text-secondary">Description of Starter 5</p>
+                    <p class="price">$10.75</p>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <img src="./public/img/menu/menu-item-6.png" alt="Starter Image 2">
+                    <h4>Starter 6</h4>
+                    <p class="text-secondary">Description of Starter 6</p>
+                    <p class="price">$15.99</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- BREAKFAST TAB -->
+        <div id="breakfast" class="tab-content active">
+            <div class="row">
+                <h6 class="text-secondary text-center">MENU</h6>
+                <h2 class="text-danger text-center mb-2">Breakfast</h2>
+                <div class="col-md-4 mb-2">
+                    <img src="./public/img/menu/menu-item-1.png" alt="Starter Image 1">
+                    <h4>Breakfast 1</h4>
+                    <p class="text-secondary">Description of Breakfast 1</p>
+                    <p class="price">$7</p>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <img src="./public/img/menu/menu-item-2.png" alt="Breakfast Image 2">
+                    <h4>Breakfast 2</h4>
+                    <p class="text-secondary">Description of Breakfast 2</p>
+                    <p class="price">$5.25</p>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <img src="./public/img/menu/menu-item-3.png" alt="Breakfast Image 3">
+                    <h4>Breakfast 3</h4>
+                    <p class="text-secondary">Description of Breakfast 3</p>
+                    <p class="price">$12.57</p>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <img src="./public/img/menu/menu-item-4.png" alt="Breakfast Image 4">
+                    <h4>Breakfast 4</h4>
+                    <p class="text-secondary">Description of Breakfast 4</p>
+                    <p class="price">$8.99</p>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <img src="./public/img/menu/menu-item-5.png" alt="Breakfast Image 5">
+                    <h4>Breakfast 5</h4>
+                    <p class="text-secondary">Description of Breakfast 5</p>
+                    <p class="price">$10.75</p>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <img src="./public/img/menu/menu-item-6.png" alt="Breakfast Image 6">
+                    <h4>Breakfast 6</h4>
+                    <p class="text-secondary">Description of Breakfast 6</p>
+                    <p class="price">$15.99</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- LUNCH TAB -->
+        <div id="lunch" class="tab-content">
+            <div class="row">
+                <h6 class="text-secondary text-center">MENU</h6>
+                <h2 class="text-danger text-center mb-2">Lunch</h2>
+                <div class="col-md-4 mb-4">
+                    <img src="./public/img/menu/menu-item-3.png" alt="Lunch Image 3">
+                    <h4>Lunch 1</h4>
+                    <p class="text-secondary">Description of Lunch 1</p>
+                    <p class="price">$5.35</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="./public/img/menu/menu-item-1.png" alt="Lunch Image 1">
+                    <h4>Lunch 2</h4>
+                    <p class="text-secondary">Description of Lunch 2</p>
+                    <p class="price">$85</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="./public/img/menu/menu-item-2.png" alt="Lunch Image 3">
+                    <h4>Lunch 3</h4>
+                    <p class="text-secondary">Description of Lunch 3</p>
+                    <p class="price">$52</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="./public/img/menu/menu-item-4.png" alt="Lunch Image 6">
+                    <h4>Lunch 4</h4>
+                    <p class="text-secondary">Description of Lunch 4</p>
+                    <p class="price">$17.99</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="./public/img/menu/menu-item-5.png" alt="Lunch Image 5">
+                    <h4>Lunch 5</h4>
+                    <p class="text-secondary">Description of Lunch 5</p>
+                    <p class="price">$11.75</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="./public/img/menu/menu-item-6.png" alt="Lunch Image 4">
+                    <h4>Lunch 6</h4>
+                    <p class="text-secondary">Description of Lunch 6</p>
+                    <p class="price">$14.99</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- DINNER TAB -->
+        <div id="dinner" class="tab-content active">
+            <div class="row">
+                <h6 class="text-secondary text-center">MENU</h6>
+                <h2 class="text-danger text-center mb-2">Dinner</h2>
+                <div class="col-md-4 mb-2">
+                    <img src="./public/img/menu/menu-item-3.png" alt="dinner Image 3">
+                    <h4>Dinner 1</h4>
+                    <p class="text-secondary">Description of Dinner 1</p>
+                    <p class="price">$7</p>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <img src="./public/img/menu/menu-item-2.png" alt="Dinner Image 5">
+                    <h4>Dinner 2</h4>
+                    <p class="text-secondary">Description of Dinner 2</p>
+                    <p class="price">$5.25</p>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <img src="./public/img/menu/menu-item-1.png" alt="Dinner Image 2">
+                    <h4>Dinner 3</h4>
+                    <p class="text-secondary">Description of Dinner 3</p>
+                    <p class="price">$12.57</p>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <img src="./public/img/menu/menu-item-6.png" alt="Dinner Image 1">
+                    <h4>Dinner 4</h4>
+                    <p class="text-secondary">Description of Dinner 4</p>
+                    <p class="price">$8.99</p>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <img src="./public/img/menu/menu-item-5.png" alt="Dinner Image 4">
+                    <h4>Dinner 5</h4>
+                    <p class="text-secondary">Description of Dinner 5</p>
+                    <p class="price">$10.75</p>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <img src="./public/img/menu/menu-item-4.png" alt="Dinner Image 6">
+                    <h4>Dinner 6</h4>
+                    <p class="text-secondary">Description of Dinner 6</p>
+                    <p class="price">$15.99</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./public/js/app.js"></script>
 </body>
 
 </html>
