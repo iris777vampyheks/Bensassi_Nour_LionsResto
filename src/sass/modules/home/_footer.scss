@@ -1,0 +1,30 @@
+footer{
+    height:37vh ;
+    background-color: rgb(43, 43, 43);
+}
+.footer-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-elements > div {
+    margin: 110px 20px 0 20px;
+}
+
+.footer-elements h5 {
+    margin-bottom: 10px;
+}
+
+.footer-elements h6 {
+    margin: 0;
+}
+
+.footer-elements p {
+    margin: 0;
+}
+
+.footer-elements i {
+    display: block;
+    margin-bottom: 5px;
+}

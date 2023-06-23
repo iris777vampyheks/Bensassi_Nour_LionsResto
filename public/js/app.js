@@ -33,3 +33,16 @@ document.getElementById("starters").style.display = "flex";
 document.getElementById("breakfast").style.display = "none";
 document.getElementById("lunch").style.display = "none";
 document.getElementById("dinner").style.display = "none";
+
+showTab('starters');
+//////////////
+$(document).ready(function () {
+    $('#myCarousel').carousel({
+        interval: false
+    });
+});
+////////////
+$(document).ready(function() {
+    $('#myCarousel').carousel();
+  });
+  

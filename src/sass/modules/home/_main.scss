@@ -1,5 +1,4 @@
-
-/* section 2*/
+/* ⁡⁣⁢⁣​‌‌‍section 2​⁡*/
 .sec-2 {
     height: 110vh;
     width: 100%;
@@ -143,7 +142,7 @@ video {
     max-height: 100%;
 }
 
-//* section 3*//
+//* ⁡⁣⁢⁣​‌‌‍section 3​⁡*//
 .sec-3 {
     height: 60vh;
     width: 100%;
@@ -172,31 +171,15 @@ video {
     color: $red-baby;
 }
 
-//*section 4*//
+//*  ​‌‌‍⁡⁣⁢⁣section 4⁡​*// 
 .sec-4 {
-    background-image: url(../../../../public/img/stats-bg.jpg);
-    height: 50vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 300px;
+    background-image: url(../../../../public/img/about.jpg);
 }
 
-.sec-4 h1 {
-    color: white;
-    font-size: 48px;
-    margin-bottom: 10px;
-}
-
-.sec-4 p {
-    font-size: 16px;
-    margin: 0;
-}
-
-//* section 5*/
-.sec-5 {
-    height: 90vh;
+//*​‌‌‍⁡⁣⁢⁣section 5⁡​*//
+.section-5 {
+    height: 140vh;
     overflow-y: none;
 }
 
@@ -251,17 +234,151 @@ video {
 .price {
     font-weight: bold;
     font-size: 20px;
-    color: $red-baby;
+    color: red;
 }
 
-.active {
+.tab-content.active {
     display: flex;
 }
-//*  SECTION 6**/ 
-.sec-6{
-    height: 80vh;
+
+//*  ⁡⁣⁢⁣​‌‌‍SECTION 6​⁡**/ 
+.sec-six {
+    height: 90vh;
+    background-color: $gray-bg;
+}
+
+#carou-1 .carousel-inner {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#carou-1 .carousel-inner .item img {
+    max-width: 100%;
+    height: auto;
+}
+
+#carou-1 .carousel-indicators {
+    bottom: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#carou-1 .carousel-indicators li {
+    background-color: #ccc;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+#carou-1 .carousel-indicators .active {
+    background-color: red;
+}
+
+
+.share {
+    font-family: Amatic SC;
+}
+
+.share {
+    font-family: Amatic SC;
+}
+
+//*⁡⁣⁢⁣​‌‌‍section 7⁡​ *//
+.sec-7 {
+    height: 100vh;
 
 }
-.share{
-    font-family: Amatic SC;
+
+//* ​‌‌‍⁡⁣⁢⁣section 8​⁡​*//
+.sec-8 {
+    height: 100vh;
+}
+
+.btnstay {
+
+    border-style: none;
+    border-radius: 25px;
+}
+
+
+//* ​‌‌‍⁡⁣⁢⁣Section 9⁡​⁡*//
+.sec-9 {
+    height: 70vh;
+    background-color: $gray-bg;
+}
+#myCarousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: $gray-bg;
+}
+
+#myCarousel .carousel-inner {
+    text-align: center;
+}
+
+#myCarousel .carousel-inner .item img {
+    display: inline-block;
+    border: 10px solid gray;
+    width: 300px;
+    height: 300px;
+}
+
+#myCarousel .carousel-indicators li {
+    background-color: gray;
+}
+
+#myCarousel .carousel-indicators .active {
+    background-color: red;
+}
+
+#myCarousel .carousel-control {
+    bottom: 20px;
+}
+
+#myCarousel .carousel-control.left {
+    left: 20px;
+}
+
+#myCarousel .carousel-control.right {
+    right: 20px;
+}
+
+
+
+
+.sec-10 {
+    height:1000px;
+}
+
+.contact-parent {
+    margin-left: 150px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: #ccc;
+    margin: 0 10px;
+}
+
+.map-container {
+margin-top: 30px;
+    margin-left: 150px;
+    width: 80%;
+    height: 400px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    margin-right: 164px;
 }
