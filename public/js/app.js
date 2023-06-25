@@ -28,7 +28,7 @@ function showTab(tabName) {
     document.getElementById(tabName).style.display = "flex";
 }
 
-// Display only 6images by default
+// Display only 6images
 document.getElementById("starters").style.display = "flex";
 document.getElementById("breakfast").style.display = "none";
 document.getElementById("lunch").style.display = "none";
@@ -42,7 +42,42 @@ $(document).ready(function () {
     });
 });
 ////////////
-$(document).ready(function() {
-    $('#myCarousel').carousel();
-  });
-  
+const track = document.querySelector('.carousel-track');
+const cards = Array.from(document.querySelectorAll('.carousel-card'));
+const sliders = Array.from(document.querySelectorAll('.slider'));
+
+let activeCardIndex = 0;
+
+function updateCarousel() {
+    const cardWidth = cards[0].offsetWidth;
+    const trackWidth = cardWidth * cards.length;
+    track.style.width = `${trackWidth}px`;
+
+    const translateX = -cardWidth * activeCardIndex;
+    track.style.transform = `translateX(${translateX}px)`;
+
+    cards.forEach((card, index) => {
+        if (index === activeCardIndex) {
+            card.classList.add('active');
+            sliders[index].classList.add('active');
+        } else {
+            card.classList.remove('active');
+            sliders[index].classList.remove('active');
+        }
+    });
+}
+
+function slideToIndex(index) {
+    if (index >= 0 && index < cards.length) {
+        activeCardIndex = index;
+        updateCarousel();
+    }
+}
+
+sliders.forEach((slider, index) => {
+    slider.addEventListener('click', () => {
+        slideToIndex(index);
+    });
+});
+
+updateCarousel();
