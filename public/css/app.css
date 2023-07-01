@@ -64,6 +64,7 @@
   justify-content: center;
   align-items: center;
   height: 100%;
+  width: 96%;
 }
 
 .abt2 {
@@ -89,8 +90,8 @@
   left: 36%;
   transform: translate(-50%, -50%);
   cursor: pointer;
-  z-index: 2;
-  transition: transform 0.3s ease;
+  z-index: 3;
+  transition: transform 0.2s ease;
 }
 
 .play-icon:hover i {
@@ -645,6 +646,15 @@ iframe {
 
 .btn-table:hover {
   background-color: rgb(173, 25, 25);
+}
+
+.circled {
+  margin-top: 177px;
+  margin-right: 150px;
+}
+
+.wtch {
+  align-self: center;
 }
 
 footer {

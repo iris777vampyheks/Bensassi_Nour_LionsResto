@@ -62,6 +62,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    width: 96%;
 }
 
 .abt2 {
@@ -88,8 +89,8 @@
     left: 36%;
     transform: translate(-50%, -50%);
     cursor: pointer;
-    z-index: 2;
-    transition: transform 0.3s ease;
+    z-index: 3;
+    transition: transform 0.2s ease;
 }
 
 .play-icon:hover i {
@@ -137,6 +138,8 @@ video {
     width: 700px;
     height: 800px;
 }
+
+
 
 //* ⁡⁣⁢⁣​‌‌‍section 3​⁡*//
 .sec-3 {
@@ -362,6 +365,8 @@ video {
     height: 100vh;
     background: rgb(198, 198, 198);
 }
+
+
 
 
 //* ​‌‌‍⁡⁣⁢⁣section 8​⁡​*//

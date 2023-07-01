@@ -19,6 +19,7 @@ exitIcon.addEventListener('click', () => {
 
 // color
 exitIcon.style.color = 'red';
+exitIcon.style.marginTop = '170px';
 // tablist
 function showTab(tabName) {
     let tabs = document.getElementsByClassName("tab-content");
